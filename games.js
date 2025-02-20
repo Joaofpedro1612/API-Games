@@ -1,10 +1,31 @@
-
 'use strict';
 
 
+const categoriasTraduzidas = {
+    'tiro': 'shooter',
+    'mmorpg': 'mmorpg',
+    'estratégia': 'strategy',
+    'moba': 'moba',
+    'corrida': 'racing',
+    'esportes': 'sports',
+    'social': 'social',
+    'sandbox': 'sandbox',
+    'mundo aberto': 'open-world',
+    'sobrevivência': 'survival',
+    'pvp': 'pvp',
+    'pve': 'pve',
+    'pixel': 'pixel',
+    'zumbi': 'zombie',
+    'turno': 'turn-based',
+    'fantasia': 'fantasy',
+    'ficção científica': 'sci-fi',
+    'luta': 'fighting',
+    'ação-rpg': 'action-rpg',
+    'battle royale': 'battle-royale'
+};
 
 async function pesquisarJogos(categoria) {
-  
+    // Traduz a categoria para inglês
     const categoriaIngles = categoriasTraduzidas[categoria.toLowerCase()] || categoria.toLowerCase();
     const url = `https://www.freetogame.com/api/games?category=${categoriaIngles}`;
     const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`; // Usando outro proxy CORS
