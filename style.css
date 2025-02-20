@@ -1,3 +1,4 @@
+
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +7,7 @@
 
 body {
     padding: 16px;
-    background-color: #4c0000;
+    background-color: #1a1a1a;
     color: #fff;
     font-family: Arial, sans-serif;
 }
@@ -14,38 +15,38 @@ body {
 h1 {
     text-align: center;
     margin-bottom: 16px;
-    color: #ff3333;
+    color: #ff3333; 
 }
 
 #categoria {
     padding: 10px;
     font-size: 16px;
     width: 320px;
-    background-color: #800000;
+    background-color: #b30000; 
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     margin-bottom: 16px;
     transition: background-color 0.3s ease;
 }
 
 #categoria:focus {
-    background-color: #b30000;
+    background-color: #ff3333; 
 }
 
 #pesquisar {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #b30000;
+    background-color: #ff3333; 
     color: #fff;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
     transition: background-color 0.3s ease;
 }
 
 #pesquisar:hover {
-    background-color: #ff3333;
+    background-color: #b30000; 
 }
 
 #galeria {
@@ -56,22 +57,22 @@ h1 {
 }
 
 .jogo {
-    background-color: #660000;
+    background-color: #272727; 
     padding: 24px;
-    border-radius: 12px;
+    border-radius: 6px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 .jogo:hover {
-    transform: scale(1.05);
+   
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .jogo img {
     width: 80%;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
+    border-radius: 3px;
+    transition: transform 0.2s ease;
 }
 
 .jogo:hover img {
@@ -81,16 +82,12 @@ h1 {
 .jogo h2 {
     margin-top: 8px;
     font-size: 20px;
-    color: #ff6666;
-    transition: color 0.3s ease;
-}
-
-.jogo:hover h2 {
-    color: #ff3333;
+    color: #ff3333; 
+    
 }
 
 .jogo p {
     margin-top: 8px;
     font-size: 14px;
-    color: #e6e6e6;
+    color: #e6e6e6; 
 }
